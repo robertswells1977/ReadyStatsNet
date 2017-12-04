@@ -59,11 +59,11 @@ namespace ReadyStats
             //    appId: "",
             //    appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "792250578206-1bgrenva2bfmhj46bfmkarbnv3eeoh5d.apps.googleusercontent.com",
+                ClientSecret = "fMPo3TVCiB89g0ax4p-NYK7cs"
+            });
         }
     }
 }

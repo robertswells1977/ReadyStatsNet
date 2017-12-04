@@ -14,5 +14,6 @@ namespace ReadyStats.Controllers
 
             return View();
         }
+
     }
 }
